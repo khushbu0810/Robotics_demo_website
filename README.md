@@ -1,59 +1,33 @@
-# CpFoundations
+# 🚀 CP Fouations | Robotics & STEM Learning
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.6.
 
-## Development server
+## 🌐 **Live Website:** [cp-foundations.netlify.app](https://cp-foundations.netlify.app/)
 
-To start a local development server, run:
+Welcome to **CP Fouations** – a fun and interactive learning space where young minds turn curiosity into creativity!
 
-```bash
-ng serve
-```
+Designed for children in **Classes 4–8**, this website introduces the exciting world of robotics, coding, artificial intelligence, electronics and science through simple explanations and engaging experiences.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### ✨ Explore a World of Possibilities
 
-## Code scaffolding
+- 🤖 **Robotics:** Discover how robots work and build amazing creations.
+- 💻 **Coding:** Learn to think logically and create with code.
+- 🧠 **Artificial Intelligence:** Explore how smart machines learn and think.
+- ⚡ **Electronics:** Understand circuits, components and technology.
+- 🔬 **Science:** Experiment, discover and ask questions.
+- 🛠️ **Engineering:** Imagine ideas and turn them into real creations.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 🎯 Our Mission
 
-```bash
-ng generate component component-name
-```
+To inspire children to think creatively, solve problems, explore technology and become the innovators of tomorrow.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+**Because every great invention starts with a curious mind! 💡**
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+### 🛠️ Built With
 
-To build the project run:
+`Angular` · `TypeScript` · `HTML5` · `CSS3`
 
-```bash
-ng build
-```
+### 🌈 Come Explore!
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+👉 **[Visit CP Fouations – Start Your Learning Adventure!](https://cp-foundations.netlify.app/)**
