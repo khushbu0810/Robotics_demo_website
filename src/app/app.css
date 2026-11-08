@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --background: #ffffff;
+    --background-soft: #f5f8fc;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --border: #e2e8f0;
+    --card-background: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    padding: 90px 7%;
+    scroll-margin-top: 80px;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text-primary);
+    letter-spacing: -0.035em;
+}
+
+p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+button:hover,
+.btn-primary:hover {
+    background: var(--primary-hover);
+}
+
+.card {
+    background: var(--card-background);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 5px 25px rgba(15, 23, 42, 0.035);
+    transition: transform 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 5%;
+    }
+}
