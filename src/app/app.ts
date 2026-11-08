@@ -1,12 +1,19 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
+  standalone: true,
+  imports: [],
   templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('cp-foundations');
+
+  flippedCard: number | null = null;
+
+  toggleCard(cardNumber: number): void {
+    this.flippedCard =
+      this.flippedCard === cardNumber ? null : cardNumber;
+  }
+
 }
